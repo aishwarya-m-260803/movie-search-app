@@ -65,21 +65,24 @@ npm run dev
 ### 4. Open in browser
 http://localhost:3000
 
+----
+
  --Key Concepts Used
+Dynamic routing with Next.js 
+State management using React Hooks 
+Filtering and sorting data using JavaScript methods
+Reusable component design
+Responsive UI using Tailwind CSS
 
-. Dynamic routing with Next.js (/movies/[id])
-. State management using React Hooks (useState)
-. Filtering and sorting data using JavaScript methods
-. Reusable component design
-. Responsive UI using Tailwind CSS
-
+---
 
  --Future Enhancements
-. Add Favorites (❤️) functionality
-. Integrate external movie API
-. Add genre/category filtering
-. Implement dark mode
+Add Favorites (❤️) functionality
+Integrate external movie API
+Add genre/category filtering
+Implement dark mode
+
+---
 
 Author
-
 Aishwarya M
