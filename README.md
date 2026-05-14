@@ -5,7 +5,7 @@ The application allows users to search, sort, and view detailed information abou
 
 ---
 
-## Features
+##  Features
 
 - 🔍 Real-time search by movie title  
 - ⭐ Sort movies by rating (High → Low / Low → High)  
@@ -16,73 +16,88 @@ The application allows users to search, sort, and view detailed information abou
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
-| Technology   | Purpose                          |
-|-------------|----------------------------------|
-| Next.js     | Framework & routing              |
-| TypeScript  | Type safety                      |
-| Tailwind CSS| Styling & responsive design      |
-| React       | Component-based architecture     |
+| Technology    | Purpose                         |
+|--------------|---------------------------------|
+| Next.js      | Framework & routing             |
+| TypeScript   | Type safety                     |
+| Tailwind CSS | Styling & responsive design     |
+| React        | Component-based architecture    |
 
 ---
 
 ##  Project Structure
+
+```
 app/
 ├── movies/
-│ ├── page.tsx # Movies listing page
-│ ├── [id]/page.tsx # Movie details page
+│   ├── page.tsx          # Movies listing page
+│   ├── [id]/page.tsx     # Movie details page
 ├── _components/
-│ ├── MovieCard.tsx
-│ ├── Header.tsx
-│ ├── Footer.tsx
+│   ├── MovieCard.tsx
+│   ├── Header.tsx
+│   ├── Footer.tsx
 ├── layout.tsx
 ├── page.tsx
 
 lib/
-├── movies.ts # Static movie data
+├── movies.ts             # Static movie data
 
 public/
-├── images/ # Movie images
-
+├── images/               # Movie images
+```
 
 ---
 
---- Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
-bash
+```bash
 git clone https://github.com/aishwarya-m-260803/movie-search-app.git
 cd movie-search-app
+```
 
 ### 2. Install dependencies
+
+```bash
 npm install
+```
 
 ### 3. Run the development server
+
+```bash
 npm run dev
+```
 
 ### 4. Open in browser
+
+```
 http://localhost:3000
-
-----
-
- --Key Concepts Used
-Dynamic routing with Next.js 
-State management using React Hooks 
-Filtering and sorting data using JavaScript methods
-Reusable component design
-Responsive UI using Tailwind CSS
+```
 
 ---
 
- --Future Enhancements
-Add Favorites (❤️) functionality
-Integrate external movie API
-Add genre/category filtering
-Implement dark mode
+##  Key Concepts Used
+
+- Dynamic routing with Next.js (`/movies/[id]`)
+- State management using React Hooks (`useState`)
+- Filtering and sorting using JavaScript methods
+- Reusable component-based architecture
+- Responsive UI with Tailwind CSS
 
 ---
 
-Author
-Aishwarya M
+##  Future Enhancements
+
+- Add Favorites (❤️) functionality  
+- Integrate external movie API  
+- Add genre/category filtering  
+- Implement dark mode  
+
+---
+
+## Author
+
+**Aishwarya M**
